@@ -18,3 +18,19 @@ color : gray;
   position : relative;
   margin-bottom : 6em;
 }
+#d {
+  width : 40%;
+  position : absolute;
+  left : 5%;
+  top : 0;
+  border : 1px solid gray;
+  padding : 1em;
+}
+#e {
+  width : 40%;
+  position : absolute;
+  left : 50%;
+  top : 0;
+  border : 1px solid gray;
+  padding : 1em;
+}
