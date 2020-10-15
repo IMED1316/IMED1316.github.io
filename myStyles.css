@@ -34,3 +34,9 @@ color : gray;
   border : 1px solid gray;
   padding : 1em;
 }
+#z {
+  float : left;
+  padding : 1em;
+  width : 50%;
+  height : 50%;
+}
