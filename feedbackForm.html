@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback Form</title>
+   <link rel="stylesheet" type="text/css" media="all" href="myStyles.css">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="Introduction to designing and making web sites">
+  <meta name="keywords" content="Web Design,HTML,CSS">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="w3-container">
+<div>
+  <img src="banner.jpg" id="banner" alt="Banner" title="Banner">
+  <div class="w3-bar w3-grey" id="navContent">
+    <a href="index.html" class="w3-bar-item w3-hover-red w3-mobile">Index</a>
+    <a href="about.html" class="w3-bar-item w3-hover-red w3-mobile">About Us</a>
+    <a href="portfolio.html" class="w3-bar-item w3-hover-red w3-mobile">Portfolio</a>
+    <a href="media.html" class="w3-bar-item w3-hover-red w3-mobile">Media Kit</a>
+    <a href="resources.html" class="w3-bar-item w3-hover-red w3-mobile">Resources</a>
+    <a href="contact.html" class="w3-bar-item w3-hover-red w3-mobile">Contact Us</a>
+    <a href="sitemap.html" class="w3-bar-item w3-hover-red w3-mobile">Site Map</a>
+  </div>
+  <div id="breadcrumbs">
+          > <a href="index.html">Home</a> > <a href="contact.html">Contact Us</a> > Feedback Form
+  </div>
+  <header>
+     <h2>Feedback Form</h2>
+  </header>
+  <form action="https://www.jimlink.net/PHPStuff/testFormData.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="First Name"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Last Name"><br><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" value="Email"><br><br>
+    <input list="contactReason" name="contactReason">
+    <datalist id="contactReason">
+    <option value="Internet Explorer">
+    <option value="Feedback">
+    <option value="Suggestion">
+    <option value="Broken link report">
+    <option value="Other">
+    </datalist>
+    <label for="reason">Reason for contact:</label><br>
+    <input type="reason" id="reason" name="reason" value="reason"><br>
+  <input type="submit" value="Submit">
+</form> 
+</div>
+</body>
+</html>
